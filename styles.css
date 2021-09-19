@@ -1,0 +1,61 @@
+body{
+    background-color: lightblue;
+    font-family: 'Fleur De Leah', cursive;
+    font-weight: 400;
+}
+.container  {
+    width: max-content;
+    margin: 10% auto;
+
+}
+.white-keys{
+    position: absolute;
+    z-index: 0;
+}
+.black-keys {
+    position: relative;
+    z-index: 1;
+}
+.key {
+    font-family: 'Fleur De Leah', cursive;
+    font-weight: 400;
+    font-size: 2em;
+    display: inline-block;
+    transition: all .25s linear;
+}
+.white-keys kbd {
+    text-align: center;
+    width: 70px;
+    height: 100px;
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 120px;
+    margin: 0 auto 0 -0.25rem;
+}
+kbd.pressWhite  {
+    background-color: #EEE;
+    color: darkgoldenrod;
+    transform: scale(0.95);
+}
+.black-keys kbd {
+    position: relative;
+    text-align: center;
+    width: 60px;
+    height: 100px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    padding-top: 20px;
+    margin: 0 10px 0 -0.25rem;
+}
+kbd.pressBlack  {
+    background-color: #111;
+    color: darkgoldenrod;
+    transform: scale(0.95);
+}
+kbd.E{
+    margin-right: 80px;
+}
+
+
