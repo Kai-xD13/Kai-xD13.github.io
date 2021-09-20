@@ -24,7 +24,7 @@ body{
 }
 .white-keys kbd {
     text-align: center;
-    width: 140px;
+    width: 105px;
     height: 100px;
     background-color: white;
     border: solid 1px black;
@@ -39,14 +39,14 @@ kbd.pressWhite  {
 .black-keys kbd {
     position: relative;
     text-align: center;
-    width: 120px;
+    width: 90px;
     height: 150px;
-    left: 80px;
+    left: 60px;
     background-color: black;
     color: white;
     border: solid 1px white;
     padding-top: 20px;
-    margin: 0 20px 0 -0.25rem;
+    margin: 0 15px 0 -0.25rem;
 }
 kbd.pressBlack  {
     background-color: #111;
@@ -54,7 +54,7 @@ kbd.pressBlack  {
     transform: scale(0.95);
 }
 kbd.E{
-    margin-right: 160px;
+    margin-right: 120px;
 }
 
 
