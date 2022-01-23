@@ -2,51 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Virtual Piano</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
-
+    <title>Portfolio</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <nav>
-        <ol>
-            <li><a href="DrumKit/index-START.html">Drums</a></li>
-        </ol>
-    </nav>
-    <div class="container">
-        <div class="white-keys">
-            <kbd class="key A">A</kbd>
-            <kbd class="key S">S</kbd>
-            <kbd class="key D">D</kbd>
-            <kbd class="key F">F</kbd>
-            <kbd class="key G">G</kbd>
-            <kbd class="key H">H</kbd>
-            <kbd class="key J">J</kbd>
+    <header>
+        <div class="container">
+            <h1>Carlos García, Front-end Developer</h1>
+            <nav class="hNav">
+                <div class="hamburger">
+                    <div class="burguer">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <ul class="mobileMenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#path">Path</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+                <ul class="desktopMenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#path">Path</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="black-keys">
-            <kbd class="key W">W</kbd>
-            <kbd class="key E">E</kbd>
-            <kbd class="key T">T</kbd>
-            <kbd class="key Y">Y</kbd>
-            <kbd class="key U">U</kbd>
-        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>About me</h2>
+            <img class="profile" src="KaiPhoto.jpg" alt="Profile Picture">
+            <p>Lorem ipsum</p>
+        </section>
+
+        <section id="path">
+            <article>
+                <div>
+                    <h2>Path</h2>
+                    <h3>JetBrains</h3>
+                    <h3>FreeCodeCamp</h3>
+                    <h3>Dalto</h3>
+                </div>
+            </article>
+            <aside>
+                <div>
+                    <h2>Technologies</h2>
+                    <h3>HTML</h3>
+                    <h3>CSS</h3>
+                    <h3>JavaScript</h3>
+                </div>
+            </aside>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum</p>
+            <img src="DrumKit.png" alt="DrumKit picture" title="A project from JavaScript 30 Challenge">
+        </section>
+
+
+
+    </main>
+
+    <div id="contacts" class="window">
+        <h2>Contacto</h2>
+        <p>e-mail: carlos.gm@nube.com</p>
+        <p>phone: 5512345678</p>
+        <button class="open-window">Close</button>
     </div>
-    <audio class="record_A" src="audio/A.mp3"></audio>
-    <audio class="record_S" src="audio/S.mp3"></audio>
-    <audio class="record_D" src="audio/D.mp3"></audio>
-    <audio class="record_F" src="audio/F.mp3"></audio>
-    <audio class="record_G" src="audio/G.mp3"></audio>
-    <audio class="record_H" src="audio/H.mp3"></audio>
-    <audio class="record_J" src="audio/J.mp3"></audio>
 
-    <audio class="record_W" src="audio/W.mp3"></audio>
-    <audio class="record_E" src="audio/E.mp3"></audio>
-    <audio class="record_T" src="audio/T.mp3"></audio>
-    <audio class="record_Y" src="audio/Y.mp3"></audio>
-    <audio class="record_U" src="audio/U.mp3"></audio>
+    <button class="open-window">Contact</button>
 
-    <script src="behavior.js"></script>
+    <footer>
+        <div class="container">
+            <p>Footer in progress</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
 </body>
 </html>
